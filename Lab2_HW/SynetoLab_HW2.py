@@ -1,4 +1,5 @@
 def letter_count(string):
+    string = string.lower()
     frequency = {}
     for c in string:
         if c in frequency:
